@@ -1,0 +1,192 @@
+.main{
+   display: grid;
+   grid-template-columns: 45% 5% 50%;
+   height: 768px;
+}
+
+.main .display{
+   background-color: #EF3340;
+   border-bottom-right-radius: 70px;
+   display: grid;
+   grid-template-columns: 100%;
+   color:#ffffff;
+}
+
+.main .intermedio{
+   background-color: #EF3340;
+   clip-path: polygon(0 0, 0 92%, 100% 0);
+}
+
+.main .form{
+   display: grid;
+   grid-template-columns: 100%;
+   grid-template-rows: 100px 100px 75px 70px 180px;
+   padding-left: 200px;
+}
+
+.logo{
+   width: 99.37px;
+   height: 18px;
+   padding-left: 143px;
+   padding-top: 23px;
+}
+
+.title{
+   width: 330px;
+   padding-left: 181px;
+
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 48px;
+   line-height: 60px;
+   letter-spacing: -0.8px;
+}
+
+.title .stitle{
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 60px;
+   letter-spacing: -0.8px;
+}
+
+.summary{
+   width: 340px;
+   padding-left: 181px;
+
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 32px;
+}
+
+.summary .ssummary{
+   font-weight: 400;
+   font-style: normal;
+   text-align: left;
+   font-size: 18px;
+}
+
+.media{
+   margin-left: 140px;
+   font-family: 'Roboto', sans-serif;
+   color: #fff;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 24px;
+
+
+   ul li {
+      list-style: none;
+      padding-left: 0px;
+   }
+
+
+   .imediciona{
+      padding-right: 15px;
+   }
+}
+
+.rcopyrights{
+   padding-left: 181px;
+
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 12px;
+   line-height: 24px;
+   color: #FFD7DA;
+}
+
+
+.image{
+   position: absolute;
+   top: 15%;
+   left: 40%;
+   height:60%;
+   z-index: 3;
+}
+
+.form .rform-title{
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 28px;
+   line-height: 36px;
+   color:#676F8F;
+
+   .rform-titler{
+      color: #EF3340;
+      font-weight: 400;
+   }
+}
+
+.form .rform-subtitle{
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 24px;
+   color:#676F8F;
+}
+
+.disclamer{
+   width: 300px;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 12px;
+   line-height: 20px;
+   /* or 167% */
+
+   letter-spacing: 0.2px;
+   color: #A9B1D1;
+   ul{
+      padding-left: 0px;
+   }
+   ul li {
+      padding-top: 15px;
+      list-style: none;
+      padding-left: 0px;
+   }
+}
+
+
+.filter{
+   width: 280px;
+   display: grid;
+   grid-template-columns: 30% 70%;
+}
+
+
+.filterstep1{
+   width: 376px;
+   display: grid;
+   grid-template-columns: 30% 70%;
+}
+
+.filterName{
+   width: 280px;
+   grid-template-columns: 100%;
+   grid-template-rows: 56px 56px;
+}
+
+.filterNamestep1{
+   width: 376px;
+   grid-template-columns: 100%;
+   grid-template-rows: 56px 56px;
+}
+
+.handleError{
+   font-size: 12px;
+   color: #EF3340;
+}
+
+.hidden{
+   display: none;
+}

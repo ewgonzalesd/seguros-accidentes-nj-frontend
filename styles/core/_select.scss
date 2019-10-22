@@ -1,0 +1,39 @@
+select {
+  height:56px;
+  appearance: none;
+  padding: 5px;
+  -webkit-appearance: none;
+  border: {
+    color: #D4D5E8;
+    radius: .2em;
+    style: solid;
+    width: 1px;
+  }
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color:#494F66;
+  width: 100%;
+  background: url("/ic_dropdown.png")
+  no-repeat right #ffffff;
+  -webkit-appearance: none;
+  background-position: right 10px center;
+  padding:15px;
+}
+
+
+select:disabled{
+  -webkit-appearance: none;
+  width: 100%;
+  background: url("/ic_dropdown1.png")
+  no-repeat right #F7F7FA;
+  -webkit-appearance: none;
+  background-position: right 10px center;
+  padding:15px;
+}
+
+

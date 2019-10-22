@@ -1,0 +1,41 @@
+button {
+  background-color: $btn-primary;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.8px;
+  border-radius:5px;
+  left: 20px;
+}
+
+.btn:hover,
+.btn:focus {
+  color: $btn-primary;
+  border: 1px solid $btn-primary;
+  background-color: white;
+}
+.btn {
+  margin: 10px;
+  outline: none;
+}
+
+.btn-return {
+  background-color: #ffffff;
+  color: #939DFF;
+}
+
+.btn-return:hover,
+.btn-return:focus {
+    border: 1px solid #939DFF;
+    background-color: white;
+}
