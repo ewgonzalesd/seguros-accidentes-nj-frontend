@@ -4,14 +4,13 @@ import { withRouter } from 'next/router'
 
 import MyLayout from "../../components/MyLayout";
 
-class Comprador extends React.Component {
+class Step1 extends React.Component {
 
 
     constructor({router, props}) {
-        console.log(router);
         super(props);
         this.state = {
-            name : router.query.name,
+            nombre : router.query.name,
             numDoc : router.query.numDoc,
             tipDoc : router.query.tipDoc,
             lsTipDoc: [{"id": "1", "name": "DNI"}, {"id": "2", "name": "CE"}],
@@ -34,7 +33,7 @@ class Comprador extends React.Component {
             <MyLayout>
                 <div className="step1">
                     <div className="resumen">
-                        Hola <span className="show">{this.state.name} </span>
+                        Hola <span className="show">{this.state.nombre} </span>
                         cuéntanos sobre ti
                     </div>
                     <div>
@@ -65,16 +64,16 @@ class Comprador extends React.Component {
                         ¿ESTE SEGURO ES PARA TI?
                     </div>
                     <div>
-                        <div> <input type="radio" id="test1"  value="0" name="titular" checked={this.state.titular ==='0'} onChange={this.handleChange}/>
+                        <div> <input type="radio" id="test1"  value="0" checked={this.state.titular ==='0'} onChange={this.handleChange}/>
                             <label htmlFor="test1">No</label></div>
                         <div>
-                            <input type="radio" id="test2" value="1" name="titular" checked={this.state.titular ==='1'} onChange={this.handleChange}/>
+                            <input type="radio" id="test2" value="1" checked={this.state.titular ==='1'} onChange={this.handleChange}/>
                             <label htmlFor="test2">Sí </label>
                         </div>
                     </div>
                     <div>
                         <div>
-                            <button className="btn-return">Modificar {this.state.lsTipDoc[this.state.tipDoc-1].name}</button>
+                            <button className="btn-return">Modificar</button>
                             <button className="btn">CONTINUAR ></button>
                         </div>
                     </div>
@@ -85,4 +84,4 @@ class Comprador extends React.Component {
 
 }
 
-export default withRouter(Comprador);
+export default withRouter(Step1);
